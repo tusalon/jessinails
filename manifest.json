@@ -1,20 +1,20 @@
 {
-  "name": "Yami Nails Beauty",
-  "short_name": "Yami",
+  "name": "Jessi Nails ",
+  "short_name": "Jessi",
   "description": "Uñas y belleza - Tu espacio de cuidado personal",
-  "start_url": "/yaminailsbeauty/",
-  "scope": "/yaminailsbeauty/",
+  "start_url": "/jessinails/",
+  "scope": "/jessinails/",
   "display": "standalone",
   "background_color": "#ec4899",
   "theme_color": "#ec4899",
   "icons": [
     {
-      "src": "/yaminailsbeauty/icons/icon-192x192.png",
+      "src": "/jessinails/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/yaminailsbeauty/icons/icon-512x512.png",
+      "src": "/jessinails/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

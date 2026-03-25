@@ -1,12 +1,12 @@
 // utils/config-negocio.js - VERSIÓN MULTI-TENANT CORREGIDA
-// CLIENTE: Yami Nails Beauty
+// CLIENTE: Jessi Nails 
 
 console.log('🏢 config-negocio.js cargado');
 
 // ============================================
 // 🔥 CONFIGURACIÓN POR CLIENTE - ¡LO ÚNICO QUE CAMBIA!
 // ============================================
-const NEGOCIO_ID_POR_DEFECTO = '46854495-29a6-4890-93dd-1aa2fdcbe4d6'; // ID de Yami Nails Beauty
+const NEGOCIO_ID_POR_DEFECTO = '1cce86f4-8877-43ad-9bae-ac4ef6635c93'; // ID de Jessi Nails 
 
 // Hacer accesible globalmente
 window.NEGOCIO_ID_POR_DEFECTO = NEGOCIO_ID_POR_DEFECTO;
@@ -116,7 +116,7 @@ window.cargarConfiguracionNegocio = async function(forceRefresh = false) {
  */
 window.getNombreNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.nombre || 'Yami Nails Beauty';
+    return config?.nombre || 'Jessi Nails ';
 };
 
 /**
@@ -124,7 +124,7 @@ window.getNombreNegocio = async function() {
  */
 window.getTelefonoDuenno = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.telefono || '52817501';
+    return config?.telefono || '53089861';
 };
 
 /**
@@ -132,7 +132,7 @@ window.getTelefonoDuenno = async function() {
  */
 window.getEmailNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.email || 'yamilay053@gmail.com';
+    return config?.email || 'jessicadayanacastrogomez@gmail.com';
 };
 
 /**
@@ -164,7 +164,7 @@ window.getHorarioAtencion = async function() {
  */
 window.getMensajeBienvenida = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.mensaje_bienvenida || '¡Bienvenida a Yami Nails Beauty!';
+    return config?.mensaje_bienvenida || '¡Bienvenida a Jessi Nails !';
 };
 
 /**
@@ -180,7 +180,7 @@ window.getMensajeConfirmacion = async function() {
  */
 window.getNtfyTopic = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.ntfy_topic || 'yami-nails-beauty';
+    return config?.ntfy_topic || 'jessinails';
 };
 
 /**
@@ -205,5 +205,5 @@ setTimeout(async () => {
     await window.cargarConfiguracionNegocio();
 }, 500);
 
-console.log('✅ config-negocio.js listo para Yami Nails Beauty');
+console.log('✅ config-negocio.js listo para Jessi Nails ');
 console.log('🏷️  ID configurado:', NEGOCIO_ID_POR_DEFECTO);
